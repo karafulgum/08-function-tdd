@@ -10,7 +10,7 @@ test('It can check deep equal',  (assert) => {
   const e = deepEquals(['d', true], ['d', true, 'x']);
 
   assert.strictEqual(a, true, 'It returns true when all the values are the same in both arrays');
-  assert.strictEqual(b, false, 'It returns false when the second item is differet');
+  assert.strictEqual(b, false, 'It returns false when the second item is different');
   assert.strictEqual(c, true, 'It returns true when all the values are the same in both arrays');
   assert.strictEqual(d, false, 'It returns false when ANY item is different');
   assert.strictEqual(e, false, 'It returns false if the lengths are different');
