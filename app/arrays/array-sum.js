@@ -1,8 +1,8 @@
 export default function arraySum(arr) {
-  let arraySum = arr[0];
-
-  for (let i = 1; i < arr.length; i++) {
-    arraySum = arraySum + arr[i];
+  let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    count = count + arr[i];
   }
-  return arraySum;
+
+  return count;
 }
